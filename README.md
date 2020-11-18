@@ -1,7 +1,5 @@
 # Ansible Role: Git
 
-[![CI](https://github.com/geerlingguy/ansible-role-git/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-git/actions?query=workflow%3ACI)
-
 Installs Git, a distributed version control system, on any RHEL/CentOS or Debian/Ubuntu Linux system.
 
 ## Requirements
@@ -43,7 +41,7 @@ None.
 
     - hosts: servers
       roles:
-        - { role: geerlingguy.git }
+        - { role: janosh0815.git }
 
 ## License
 
